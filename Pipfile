@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 pandas = "==0.22"
-alpaca-trade-api = "==0.19"
+alpaca-trade-api = {git = "https://github.com/AndriyZav/sma-algo2/alpaca-trade-api.git", editable = true, ref = "v0.27"}
 pipeline-live = "==0.1.4"
 pylivetrader = "==0.0.13"
 ipython = "*"
